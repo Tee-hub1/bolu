@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Form</title>
+
+	<link rel="stylesheet"  href="Stylesheets/external.css">
+</head>
+
+	<style>
+		
+		h1{
+			text-align: center;
+		}
+		.form-style{
+			text-align: center;
+		}
+
+	</style>
+<body>
+	<form class="form-style">
+		<fieldset>
+			<h1>Registration Form</h1>
+
+		<label>Firstname:</label>
+		<input type="text">
+
+		<label>Lastname:</label>
+		<input type="text">
+	<br>
+	<br>
+		<label>Email:</label>
+		<input type="text">
+
+		<label>Age:</label>
+		<input type="number" max="18">
+<br>
+<br>
+	<label>Sex:</label>
+		<input type="radio" name="gender">Male
+		<input type="radio" name="gender">Female
+		<input type="radio" name="gender">Other
+<br>
+<br>
+		<label>Country Of Origin:</label>
+		<select>
+			<option>France</option>
+			<option>United States</option>
+			<option>Germany</option>
+			<option>Nigeria</option>
+		</select>
+<br>
+<br>
+		<label>Occupation:</label>
+		Student<input type="checkbox" name="job" >
+		Developer<input type="checkbox" name="job">
+		Civil Servant<input type="checkbox" name="job">
+		Others<input type="checkbox" name="job">
+<br>
+<br>
+		<label>Comments:</label>
+		<br>
+		<textarea cols="60" rows="6">You can write any message here...
+		</textarea>
+<br>
+<br>
+		<button type="submit" style="text-align: center padding: 20px; ">Submit</button>
+
+		</fieldset>
+	</form>
+
+</body>
+</html>
